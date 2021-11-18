@@ -147,6 +147,12 @@ main form button{
     margin-top: 10px;
     margin-right: 10px;
     border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+main form button:hover{
+    background-color:#0022AA;
 }
 
 main form .perfil{
@@ -217,6 +223,10 @@ footer .derechos{
 
 
 @media (min-width:768px){
+
+
+    
+
     header .top-header .logo{
         width: 220px;
        
@@ -263,7 +273,9 @@ footer .derechos{
         display: flex;
      }
 
-    
+     footer section article{
+        margin-bottom: 30px;
+    }
 
 
 }

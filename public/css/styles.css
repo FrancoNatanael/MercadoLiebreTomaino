@@ -15,9 +15,21 @@ h3{
     font-size: 24px;
     color: rgb(79, 79, 79);
 }
+
+
+
 h4{
-    display: none;
+    color: white;
+    transition: color 0.8s linear 0.2s
 }
+h4:hover{
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+
+
 .compra-en-cuotas{
     text-align: center;
 }
@@ -175,10 +187,11 @@ main section article .caja-detalle{
 footer section{
     margin-top: 60px;
     background-color: white;
-    padding: 10px;
+    padding: 13px;
 }
 
 footer section article{
+
    text-align: center;
    margin-top: 30px;
    margin-left: 35px;
@@ -196,21 +209,28 @@ footer section article i{
     font-size: 25px;
     color: blue;
     margin-bottom: 5px;
+    transition: all 0.5s;
+}
+footer section article i:hover{
+    color: #EAC926;
 }
 footer .derechos{
     margin-top: 15px;
     color: rgb(136, 136, 136);
 }
+
+
+
+
 @media (min-width:368px){
     header .top-header .logo{
         width: 40%;
         
     }
-    h4{
-        display: block;
-        font-size: 16px;
-    }
     main article{
+        transition: all 0.5s;
+    }
+    main article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         
     }
@@ -265,6 +285,13 @@ footer .derechos{
         justify-content: space-around;
         
     }
+
+    
+
+
+
+
+
     main section article h3{
         text-align: left;
      }
@@ -276,8 +303,11 @@ footer .derechos{
 
      footer section{
         display: flex;
+        
      }
-
+     footer section article{
+         margin-bottom: 30px;
+     }
     
 
 
@@ -296,5 +326,12 @@ footer .derechos{
     }
     .precio-descuento .descuento{
         width: 50%;
+    }
+    .caja-detalle i{
+     transition: all 0.3s;
+    }
+    .caja-detalle  i:hover{
+        transform: rotate(-90deg)
+
     }
 }
