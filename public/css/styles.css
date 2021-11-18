@@ -1,0 +1,300 @@
+*{
+    margin :0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+   
+}
+p{
+    font-size: 12px;
+}
+h3{
+    font-size: 24px;
+    color: rgb(79, 79, 79);
+}
+h4{
+    display: none;
+}
+.compra-en-cuotas{
+    text-align: center;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: green;
+}
+div.top-header{
+    padding: 5%;
+}
+
+
+
+header{
+    background-color: #EAC926;
+    padding: 3px;
+}
+
+header .form .input{
+    padding: 0.4%;
+    background-color:white ;
+    color: #ebebeb;
+    border: 0.5px solid #666;
+    width: 135px;
+    margin-bottom: 5px;
+    display: inline-block;
+} 
+
+header .form .submit{
+   
+    padding: 0.2%;
+    background-color:#ebebeb;
+    width: 16px;
+    border: 0.5px solid #666;
+    display: inline-block;
+}
+
+
+
+.logo-barra{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo-barra .form{
+    width: 50%;
+    align-self: center;
+}
+
+header .top-header .logo{
+    width: 50%;
+    padding: 5px;
+}
+header .top-header .compra-en-cuotas{
+   margin: auto;
+}
+
+
+
+nav .listas{
+    display: none;
+}
+.listas ul li{
+    list-style:none;
+}
+.listas ul li a{
+    color: black;
+    text-decoration:none;
+    
+}
+
+.burger-menu{
+   
+    color: white;
+    background-color:#03264C;
+    width: 27px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 2px;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin :auto;
+}
+
+
+.banner img{
+    width: 100%;
+}
+
+main{
+    margin: auto;
+    width: 90%;
+    
+}
+main article{
+    margin: auto;
+    margin-top:15px;
+    width: 100%;
+    
+}
+main article img{
+    width: 100%;
+}
+
+.caja-detalle{
+    border-top: 1px #ebebeb solid;
+    padding: 15px;
+    background-color: white;
+ 
+}
+main section article .caja-detalle{
+    position: relative;
+}
+.caja-detalle i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    color: #39b54a;
+ background-color: #FFF;
+ border-radius: 50%;
+
+ position: absolute;
+ right: 20px;
+ top: -15px;
+    
+
+ 
+   
+
+}
+
+
+.precio-descuento{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.precio-descuento .precio{
+    width: 30%;
+}
+.precio-descuento .descuento{
+    width: 70%;
+}
+
+
+
+footer section{
+    margin-top: 60px;
+    background-color: white;
+    padding: 10px;
+}
+
+footer section article{
+   text-align: center;
+   margin-top: 30px;
+   margin-left: 35px;
+   margin-right: 35px;
+}
+
+footer section article h3{
+    font-size: 18px;
+}
+footer section article p{
+    font-size: 12px;
+}
+
+footer section article i{
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 5px;
+}
+footer .derechos{
+    margin-top: 15px;
+    color: rgb(136, 136, 136);
+}
+@media (min-width:368px){
+    header .top-header .logo{
+        width: 40%;
+        
+    }
+    h4{
+        display: block;
+        font-size: 16px;
+    }
+    main article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+    }
+    
+
+}
+
+@media (min-width:768px){
+    header .top-header .logo{
+        width: 220px;
+       
+    }
+    
+    .top-header .logo-barra{
+        width: 100%;
+        /*border: solid red 1px;*/
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    header .top-header .compra-en-cuotas{
+        text-align: right;
+     }
+    .top-header .logo-barra .form{
+       margin-left: 20%;
+    }
+    nav .listas{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    nav .listas ul{
+        
+        display: flex;
+      
+        justify-content: space-around;
+
+    }
+    nav .listas ul li{
+        
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    .burger-menu{
+        display: none;
+    }
+   
+    main section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    main section article h3{
+        text-align: left;
+     }
+     main section article{
+
+         width: 43%;
+     }
+
+
+     footer section{
+        display: flex;
+     }
+
+    
+
+
+}
+
+@media (min-width:1000px){
+    header .top-header .logo{
+        width: 300px;
+       
+    }
+    main section article{
+        width: 22%;
+    }
+    .precio-descuento .precio{
+        width: 40%;
+    }
+    .precio-descuento .descuento{
+        width: 50%;
+    }
+}

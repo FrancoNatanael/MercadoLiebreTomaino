@@ -1,0 +1,20 @@
+
+
+"top-header"
+
+class="logo"
+
+"form" 
+
+"fas fa-hand-holding-usd"
+
+"burger-menu"
+
+"fa fa-bars burger"
+
+"banner"
+ class="last-visit"
+"products"
+
+"main-article"
+"fas fa-truck"
