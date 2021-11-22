@@ -205,10 +205,16 @@ footer section article i{
 footer .derechos{
     margin-top: 15px;
     color: rgb(136, 136, 136);
+    
+}
+footer section article i{
+    transition: all 0.5s;
 }
 
+footer section article i:hover{
+    color: #EAC926;
 
-
+}
 
 
 
@@ -243,7 +249,8 @@ footer .derechos{
         text-align: right;
      }
     .top-header .logo-barra .form{
-       margin-left: 20%;
+        margin-left: 180px;
+       width: 25%;
     }
     nav .listas{
         display: flex;

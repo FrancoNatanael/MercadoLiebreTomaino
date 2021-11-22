@@ -22,10 +22,10 @@ h4{
     color: white;
     transition: color 0.8s linear 0.2s
 }
-h4:hover{
+main section article:hover h4{
     display: block;
     font-size: 16px;
-    color: black;
+    color: #666;;
 }
 
 
@@ -213,6 +213,7 @@ footer section article i{
 }
 footer section article i:hover{
     color: #EAC926;
+   
 }
 footer .derechos{
     margin-top: 15px;
@@ -246,7 +247,7 @@ footer .derechos{
     
     .top-header .logo-barra{
         width: 100%;
-        /*border: solid red 1px;*/
+      
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-around;
@@ -255,7 +256,8 @@ footer .derechos{
         text-align: right;
      }
     .top-header .logo-barra .form{
-       margin-left: 20%;
+       margin-left: 180px;
+       width: 25%;
     }
     nav .listas{
         display: flex;
@@ -328,9 +330,9 @@ footer .derechos{
         width: 50%;
     }
     .caja-detalle i{
-     transition: all 0.3s;
+     transition: all 0.8s;
     }
-    .caja-detalle  i:hover{
+    main section article:hover i{
         transform: rotate(-90deg)
 
     }
